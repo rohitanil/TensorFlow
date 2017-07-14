@@ -7,10 +7,10 @@ y = tf.placeholder("float")
 # w is the variable storing our values. It is initialised with random values
 # w[0] is the "a" in our equation, w[1] is the "b"
 w = tf.Variable([0.0, 0.0], name="w")
-# Our model of y = a*x + b
+# model of y = a*x + b
 y_model = tf.multiply(x, w[0]) + w[1]
 
-# Our error is defined as the square of the differences
+# error is defined as the square of the differences
 error = tf.square(y - y_model)
 
   
