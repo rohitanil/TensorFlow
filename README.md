@@ -1,2 +1,2 @@
 # TensorFlow
-Experimentation using Tensorflow
+Tensorflow samples
